@@ -5,16 +5,26 @@
 	<title>Kamień, papier, nożyce</title>
 	<link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-	<div class="container">
-		<div id="buttons">
-			<button id="play-paper">Papier</button>
-			<button id="play-rock">Kamień</button>
-			<button id="play-scissors">Nożyce</button>
-		</div>
-		<div id="messages"></div>
+<body>	
+	<div class="container">		
+		<div class="container-inner">
+			<h1>Paper / Rock/ Scissors</h1>
+			<h3>Try your luck!</h3>
+			<h5>How to play:</h5>
+			<p>Click one of three available buttons below.
+				Computer will generete it move randomly.<br>
+				The final score will be presented under the buttons!
+			</p>
+			<div id="buttons">
+				<button id="play-rock" class="btn">Kamień</button>
+				<button id="play-paper" class="btn">Papier</button>			
+				<button id="play-scissors" class="btn">Nożyce</button>				
+			</div>
+			<div id="messages"></div>
+		</div>	
 	</div>
 	<script src="js/functions.js"></script>
 	<script src="js/script.js"></script>
 </body>
 </html>
+

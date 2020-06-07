@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+.container {   
+    background-image: url('https://miro.medium.com/max/4264/1*FAIuem8M9trReHQRAORDng.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;     
+    .container-inner { 
+        background: rgba($color: #000000, $alpha: 0.8);   
+        padding: 50px;
+        text-align: center;
+        margin: auto;   
+        color: white;         
+        p {        
+            margin: 30px 150px;
+        }
+        .btn {
+            width: 110px;
+            height: 50px;
+            margin: 15px 10px;   
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;               
+            font-size: 1.4rem;  
+            &:hover {
+                border: 3px solid red;
+            }                                        
+        }
+        #play-paper {
+            background-image: url(https://images.pexels.com/photos/479453/pexels-photo-479453.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
+        }
+        #play-rock {
+            background-image: url(https://images.pexels.com/photos/161702/harmony-relax-rock-moqui-161702.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
+            color: white;
+        }
+        #play-scissors {
+            background-image: url(https://images.pexels.com/photos/1319460/pexels-photo-1319460.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
+            color: white;
+        }
+    }
+}
+
+
