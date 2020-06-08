@@ -11,7 +11,7 @@
 			<h1>Paper / Rock/ Scissors</h1>
 			<h3>Try your luck!</h3>
 			<h5>How to play:</h5>
-			<p>Click one of three available buttons below.
+			<p id="desc">Click one of three available buttons below.
 				Computer will generete it move randomly.<br>
 				The final score will be presented under the buttons!
 			</p>
@@ -20,7 +20,12 @@
 				<button id="play-paper" class="btn">Papier</button>			
 				<button id="play-scissors" class="btn">Nożyce</button>				
 			</div>
-			<div id="messages"></div>
+			<div id="result"></div>
+			<div id="messages"></div>	
+			<div id="score">
+				<p>Your score:&#160;&#160;<span id = "scorePlayer"></span></p>
+				<p>Computer Score:&#160;&#160;<span id = "scoreComputer"></span></p>
+			</div>			
 		</div>	
 	</div>
 	<script src="js/functions.js"></script>

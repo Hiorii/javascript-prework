@@ -2,6 +2,9 @@
     box-sizing: border-box;
     margin: 0;
 }
+div {
+    margin: 10px auto;
+}
 .container {   
     background-image: url('https://miro.medium.com/max/4264/1*FAIuem8M9trReHQRAORDng.png');
     background-position: center;
@@ -13,9 +16,9 @@
         text-align: center;
         margin: auto;   
         color: white;         
-        p {        
+        #desc {        
             margin: 30px 150px;
-        }
+        }       
         .btn {
             width: 110px;
             height: 50px;

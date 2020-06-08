@@ -3,6 +3,10 @@
   margin: 0;
 }
 
+div {
+  margin: 10px auto;
+}
+
 .container {
   background-image: url("https://miro.medium.com/max/4264/1*FAIuem8M9trReHQRAORDng.png");
   background-position: center;
@@ -18,7 +22,7 @@
   color: white;
 }
 
-.container .container-inner p {
+.container .container-inner #desc {
   margin: 30px 150px;
 }
 
